@@ -1,0 +1,12 @@
+This channel is for discussion about the community's discord bot: @The Hangout Bot (a.k.a Jeremy). The bot is publicly available on GitHub: https://github.com/BenWomble/TheHangoutBot. We also want you to contribute and add commands to the bot if you are up to the task.
+
+JavaScript
+First off, the bot is written in JavaScript. Get started by learning it, a great resource is Code Academy: https://www.codecademy.com/learn/introduction-to-javascript. Also, W3Schools and Khan Academy are useful learning resources.
+
+Discord.js
+Next, learn discord.js. They actually have a really nice guide that teaches you how to setup node.js here: https://discordjs.guide/#before-you-begin. discord.js.org also gives a lot of information regarding specific objects and attributes: https://discord.js.org/. For help with specific problems join the discord.js server: https://discord.gg/djs.
+
+GitHub
+Next you are going to want to understand and explore the GitHub repository. GitHub stores and manages our code making it easy for us to collaborate. I great place to start learning is https://guides.github.com/. After you have an understanding of GitHub and JavaScript, explore the code base (especially the README file and the TEMPLATES folder for command templates: https://github.com/BenWomble/TheHangoutBot. Then fork the project and start writing pull requests!
+
+Finally, contribute! Find a command our system you want to implement into the bot here: https://github.com/BenWomble/TheHangoutBot/projects/1. Then, fork the branch and setup an environment to start coding! More information on how to fork and setup an environment here: https://github.com/BenWomble/TheHangoutBot/blob/main/README.md. After you finish writing some code, create a pull request and wait for the code to be added!
