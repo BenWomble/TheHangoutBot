@@ -7,9 +7,9 @@ Just getting started? Make sure to [read this](https://github.com/BenWomble/TheH
 
 # How can I contribute?
 
- - Make sure you know JavaScript and discord.js. More information [here](https://github.com/BenWomble/TheHangoutBot/info).
+ - Make sure you know python and discord.py. More information [here](https://discordpy.readthedocs.io/en/stable/index.html).
  - Next, fork the project following [this guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
- - Make sure to set up [discord.py](https://discordpy.readthedocs.io/en/stable/index.html), and [Git](https://git-scm.com/) during this step.
+ - Make sure to set up [discord.py](https://discordpy.readthedocs.io/en/stable/intro.html), and [Git](https://git-scm.com/) during this step.
  - Also, run `pip install` to install the required packages after you clone.
  - Then, write some code or modify the existing code and push your changes to your fork of the repository.
 
