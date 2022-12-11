@@ -24,4 +24,4 @@ async def on_message(message):
         await message.channel.send('Hello, world!')
 
 
-client.run('MTA0MTM4NzI0NTkxMjk4OTgwNg.GHjC1r.oLkIlqIAk82yU8AxrD_LEjR8TE1u731iUdSC0I')
+client.run(DISCORD_TOKEN)
