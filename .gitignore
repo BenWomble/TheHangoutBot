@@ -5,3 +5,7 @@
 # Ignore .idea #
 ################
 *.idea
+
+# Ignore .exe #
+###############
+*.exe
