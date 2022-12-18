@@ -9,3 +9,7 @@
 # Ignore .exe #
 ###############
 *.exe
+
+# Ignore Lavalink #
+###################
+Lavalink
