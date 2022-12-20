@@ -1,0 +1,16 @@
+#    BOT TOKEN   #
+##################
+DISCORD_TOKEN=[your bot token]
+
+** Optional **
+
+##################
+# EXAMPLES       #
+##################
+# GUILD ID       #
+##################
+DISCORD_GUILD=[discord server guild id]
+##################
+# ROLES          #
+##################
+MEMBER_ROLE=[id of role you want to access]
