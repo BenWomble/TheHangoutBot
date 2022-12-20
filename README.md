@@ -9,7 +9,7 @@ Just getting started? Make sure to [read this](https://github.com/BenWomble/TheH
 
  - Make sure you know python, pycord, and wavelink/Lavalink. More information [here](https://docs.pycord.dev/en/stable/index.html).
  - Next, fork the project following [this guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
- - Make sure to set up [pycord](https://docs.pycord.dev/en/stable/index.html), and [Git](https://git-scm.com/) during this step.
+ - Make sure to set up [pycord](https://docs.pycord.dev/en/stable/index.html) and [Git](https://git-scm.com/) during this step.
  - Also, run `pip install -r requirements.txt` to install the required packages after you clone.
  - Then, write some code or modify the existing code and push your changes to your fork of the repository.
 
