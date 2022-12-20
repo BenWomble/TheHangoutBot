@@ -13,3 +13,7 @@
 # Ignore Lavalink #
 ###################
 Lavalink
+
+# Ignore pyCache #
+##################
+__pycache__

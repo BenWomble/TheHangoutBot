@@ -15,10 +15,12 @@ intents = discord.Intents.all()
 intents.message_content = True
 # noinspection PyUnresolvedReferences
 intents.members = True
+# noinspection PyUnresolvedReferences
+intents.reactions = True
 
 bot = commands.Bot(command_prefix="/", intents=intents)
 
-startup_extensions = ['role', 'slash']
+startup_extensions = ['features.auto_vc', 'features.music', 'features.role', 'features.slash']
 
 
 @bot.event
@@ -35,13 +37,15 @@ async def on_ready():
     print("---------------------------------------------------------------------------")
     print(f"|       Logged in as {bot.user} (ID: {bot.user.id})       |")
     print("---------------------------------------------------------------------------")
+    print("")
+    print("")
 
 
 if __name__ == '__main__':
     for extension in startup_extensions:
         try:
             bot.load_extension(extension)
-            time.sleep(3)
+            time.sleep(1)
         except (Exception,):
             print('Failed to load extension ' + extension + '.', file=sys.stderr)
             traceback.print_exc()

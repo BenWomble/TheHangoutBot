@@ -1,6 +1,5 @@
 import os
 import discord
-import main
 import time
 from tqdm import tqdm
 from dotenv import load_dotenv
@@ -17,12 +16,12 @@ class Slash(discord.Cog):
 
     # This section is for slash commands#
     #####################################
-    @main.bot.slash_command(guild_ids=[GUILD_THB, GUILD_THB2])
+    @discord.slash_command(guild_ids=[GUILD_THB, GUILD_THB2])
     async def hello(self, ctx: discord.ApplicationContext):
         """Say hello to the bot"""  # The command description
         await ctx.respond(f"Hello, {ctx.author}!")
 
-    @main.bot.slash_command(guild_ids=[GUILD_THB, GUILD_THB2])
+    @discord.slash_command(guild_ids=[GUILD_THB, GUILD_THB2])
     async def ping(self, ctx: discord.ApplicationContext):
         """Play ping pong"""  # The command description
         await ctx.respond("pong")
