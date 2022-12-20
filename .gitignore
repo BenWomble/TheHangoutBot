@@ -9,3 +9,11 @@
 # Ignore .exe #
 ###############
 *.exe
+
+# Ignore Lavalink #
+###################
+Lavalink
+
+# Ignore pyCache #
+##################
+__pycache__
