@@ -21,5 +21,5 @@ Just getting started? Make sure to [read this](https://github.com/BenWomble/TheH
  - And create a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 # How can I test my fork?
-I have set up a testing bot with **very** limited permissions in the server for testing purposes. In your project folder create a file named `.env` and write the following line in it (use token from [this message](https://discord.com/channels/882719457963831377/882947607696121918/882960700035702834)): `TOKEN=TOKENFROMMESSAGE` and save the file. When you go to run your code (`python3 main.py`), the testing bot should come online and will be running your code on your computer.
+I have set up a testing bot with **very** limited permissions in the server for testing purposes. In your project folder create a file named `.env` and write the following line in it (use token from [this message](https://discord.com/developers/applications)): `TOKEN=TOKENFROMMESSAGE` and save the file. When you go to run your code (`python3 main.py`), the testing bot should come online and will be running your code on your computer.
  
